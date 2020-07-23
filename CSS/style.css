@@ -1,0 +1,100 @@
+@import url("./font.css");
+.header_area .main-menu .navbar {
+  padding: 1rem 5rem;
+}
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font-family: "FiraSans";
+  font-weight: Condensed;
+  font-size: 18px;
+  padding: 1rem;
+  color: black;
+  text-transform: capitalize;
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  color: blue;
+}
+
+@media (max-width: 576px) {
+  .header_area .main-menu .navbar .navbar-brand {
+    padding: 0 0 0 0.5rem;
+  }
+  .header_area .main-menu .navbar {
+    padding: 0.5rem;
+    margin: auto;
+  }
+}
+
+.Site-Main .Site-Banner {
+  background-image: url("/Images/Rectangle 6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  color: white;
+}
+
+.Site-Main .title-text {
+  padding-top: auto;
+  line-height: normal;
+  color: white;
+}
+
+.about-area {
+  border: 1px solid black;
+  min-height: 100vh;
+}
+
+.about-area .About-CoreVance {
+  text-transform: capitalize;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 42px;
+  font-weight: Condensed Bold;
+}
+
+.about-area .About-CoreVance-body {
+  font-family: "Fira Sans", sans-serif;
+  color: black;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.about-area .allcards {
+  position: relative;
+  border: 1px solid black;
+}
+
+.about-area .Cards {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+}
+
+.about-area .Cards .Card {
+  border: 1px solid #cddbeb;
+  width: 225px;
+  min-height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */

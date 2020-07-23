@@ -1,0 +1,45 @@
+@import url("./font.css");
+
+.header_area {
+  .main-menu {
+    .navbar {
+      padding: 1rem 5rem;
+      .navbar-brand {
+        padding: 0 2rem 0 5rem;
+      }
+    }
+  }
+}
+.header_area {
+  .main-menu {
+    .nav-item {
+      .nav-link {
+        font-family: "FiraSans";
+        font-weight: Condensed;
+        font-size: 18px;
+        padding: 1rem;
+        color: black;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+.header_area {
+  .main-menu {
+    .navbar-nav {
+      .active a {
+        color: blue;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header_area .main-menu .navbar .navbar-brand {
+    padding: 0 0 0 0.5rem;
+  }
+  .header_area .main-menu .navbar {
+    padding: 0.5rem;
+    margin: auto;
+  }
+}

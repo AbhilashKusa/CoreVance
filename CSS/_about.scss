@@ -1,0 +1,34 @@
+.about-area {
+  border: 1px solid black;
+  min-height: 100vh;
+  .About-CoreVance {
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 42px;
+    font-weight: Condensed Bold;
+  }
+  .About-CoreVance-body {
+    font-family: "Fira Sans", sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .allcards {
+    position: relative;
+    border: 1px solid black;
+  }
+  .Cards {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+    .Card {
+      border: 1px solid #cddbeb;
+      width: 225px;
+      min-height: 200px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+}
