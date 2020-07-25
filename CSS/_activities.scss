@@ -1,0 +1,41 @@
+.Our-Activities {
+height: 100vh;
+  position: relative;
+  z-index: 0;
+  .all-raw-cards {
+    border: 1px solid black;
+    background-color: pink;
+  }
+  .raw-text {
+    color: #2a2f40;
+    font: "Fira Sans";
+    font-size: 42px;
+    font-weight: Condensed Bold;
+
+  }
+  .Our-Activities-Card {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    bottom: 0;
+    border: 1px solid #cddbeb;
+    height: 220px;
+    width: 349px;
+    overflow: hidden;
+
+    background-color: white;
+    .card-title {
+      font: "Fira Sans";
+      font-size: 20px;
+      font-weight: Condensed Bold Italic;
+      color: black;
+
+    }
+    .card-body {
+      font: "Fira Sans";
+      font-size: 17px;
+      font-weight: Condensed Bold Italic;
+      color: black;
+    }
+  }
+}

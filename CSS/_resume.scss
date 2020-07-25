@@ -1,0 +1,50 @@
+.Submit-your-resume {
+
+  font: "Fira Sans";
+  .Submit-your-resume-title {
+    font-weight: Condensed Bold;
+    font-size: 42px;
+  }
+
+  .raw-First-name {
+    font-weight: Condensed;
+    font-size: 2rem;
+  }
+  .raw-Submit {
+    background-color: #2d2e37;
+    margin-top: 1rem;
+  }
+  .raw-second {
+    .raw-backgrodund {
+      background-image: url("../Images/Rectangle\ 6.png");
+      width: 100%;
+      height: 100%;
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      .raw-box {
+        align-self: center;
+        .raw-Contact-us {
+          color: white;
+          font: "Fira Sans";
+          font-size: 30px;
+          font-weight: Condensed;
+        }
+        .JUST-DROP {
+          color: white;
+          font: "Fira Sans";
+          font-size: 42px;
+          font-weight: Condensed bolder;
+        }
+        .raw-button {
+          color: #4481eb;
+          background-color: #ffff;
+          border: none;
+          font-size: 23px;
+          font-weight: Condensed;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
